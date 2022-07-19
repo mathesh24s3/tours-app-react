@@ -85,7 +85,7 @@ footer {
 .tour--info .description {
   color: rgb(109 108 108);
   word-spacing: 3px;
-  line-height: 1.5 ;
+  line-height: 1.5;
 }
 
 .tour--info .description button {
@@ -102,11 +102,25 @@ footer {
   color: rgb(255, 107, 107);
   font: inherit;
   padding: 0.5rem 2rem;
-  margin: 0 11rem;
   transition: all 0.2s ease-in;
 }
 
 .btn:hover {
   color: white;
-  background-color:  rgb(255, 107, 107);
+  background-color: rgb(255, 107, 107);
+}
+
+.not-interested {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 690px) {
+  .header--title {
+    font-size: 2rem;
+  }
+
+  .tour--card {
+    width: 350px;
+  }
 }

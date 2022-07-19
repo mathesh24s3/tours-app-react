@@ -24,17 +24,19 @@ export default function Card({ tour, removeCard }) {
             </p>
           ) : (
             <p className="description">
-              {lessContent.map((content) => content + " ")}. . . 
+              {lessContent.map((content) => content + " ")}. . .
               <button onClick={readMoreInfo}>Read More</button>
             </p>
           )}
         </div>
-        <button
-          className="not--interested btn"
-          onClick={() => removeCard(tour.id)}
-        >
-          Not Interested
-        </button>
+        <div className="not--interested">
+          <button
+            className="btn"
+            onClick={() => removeCard(tour.id)}
+          >
+            Not Interested
+          </button>
+        </div>
       </footer>
     </article>
   );
