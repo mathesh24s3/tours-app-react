@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(2, 33, 49);
+}
+
+.App {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header--title {
+  color: rgb(244, 249, 255);
+  font-size: 3rem;
+  word-spacing: 5px;
+  margin-bottom: 0.6rem;
+}
+
+.underline {
+  width: 50%;
+  height: 3px;
+  background-color: aqua;
+}
+
+.tour--card {
+  width: 620px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.tour--card img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+footer {
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.tour--info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.tour--info div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour--info div h4 {
+  color: rgb(8, 31, 53);
+  font-size: 1.5rem;
+  margin: 0;
+  margin-block: 1rem;
+}
+
+.tour--info div .price {
+  font-size: 1rem;
+  color: rgb(101, 219, 248);
+  background-color: rgb(232, 250, 255);
+  padding: 0 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.tour--info .description {
+  color: rgb(109 108 108);
+  word-spacing: 3px;
+  line-height: 1.5 ;
+}
+
+.tour--info .description button {
+  background: transparent;
+  border: none;
+  font: inherit;
+  margin: 0;
+  color: rgb(99, 199, 245);
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid rgb(255, 107, 107);
+  color: rgb(255, 107, 107);
+  font: inherit;
+  padding: 0.5rem 2rem;
+  margin: 0 11rem;
+  transition: all 0.2s ease-in;
+}
+
+.btn:hover {
+  color: white;
+  background-color:  rgb(255, 107, 107);
+}
